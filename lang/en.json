@@ -133,6 +133,7 @@
     "oplist": "/me OP list: %%LINK%%",
     "pong": "/me Pong!",
     "novababy": "/me I do what I want!",
+    "rut": "/me Earl Grey, Hot.",
     "reload": "/me Be right back.",
     "removenotinwl": "/me [@%%NAME%%] Specified user @%%USERNAME%% is not in the waitlist.",
     "roomrules": "/me Please find the room rules here: %%LINK%%",
