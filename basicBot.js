@@ -179,7 +179,7 @@
     var botCreatorIDs = ["3851534", "4105209"];
 
     var basicBot = {
-        version: "2.3.3",
+        version: "2.3.4 Emerald Dream Edition",
         status: false,
         name: "basicBot",
         loggedInID: null,
@@ -2622,6 +2622,18 @@
                 }
             },
 
+            novaCommand: {
+                command: 'nova',
+                rank: 'user',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        API.sendChat(basicBot.chat.novababy)
+                    }
+                }
+            },
             purchaseCommand: {
                 command: ['purchase'],
                 rank: 'user',
