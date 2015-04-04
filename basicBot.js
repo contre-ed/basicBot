@@ -264,7 +264,7 @@
             afkRankCheck: "ambassador",
             motdEnabled: false,
             motdInterval: 5,
-            motd: "Temporary Message of the Day",
+            motd: "HipHop Night tonight!",
             filterChat: true,
             etaRestriction: false,
             welcome: true,
