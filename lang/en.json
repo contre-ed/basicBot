@@ -132,6 +132,7 @@
     "muterank": "/me [@%%NAME%%] You can't mute persons with an equal or higher rank than you.",
     "oplist": "/me OP list: %%LINK%%",
     "pong": "/me Pong!",
+    "novababy": "/me I do what I want!",
     "reload": "/me Be right back.",
     "removenotinwl": "/me [@%%NAME%%] Specified user @%%USERNAME%% is not in the waitlist.",
     "roomrules": "/me Please find the room rules here: %%LINK%%",
